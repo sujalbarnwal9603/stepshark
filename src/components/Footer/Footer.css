@@ -1,0 +1,17 @@
+/* Override the root max-width for the footer */
+footer {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+  }
+  
+  /* Fix the root constraints that might be affecting the footer */
+  #root {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100%;
+  }
+  
